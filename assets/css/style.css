@@ -1,0 +1,31 @@
+body {
+    background-color: #F0FFFF;
+}
+
+.shortened-url-response {
+    margin-top: 20px;
+}
+
+.btn-primary {
+    background-color: #89CFF0;
+    border-color: #0F52BA;
+    color: #000000;
+}
+
+.btn-primary:hover {
+    background-color: #0F52BA;
+    color: #89CFF0;
+}
+
+th {
+    background-color: #ADD8E6;
+}
+a {
+    text-decoration: none;
+    color: #082567;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #4682B4;
+}

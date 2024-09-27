@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteBase /url_short/
+
+RewriteRule ^([0-9]+)$ router.php?hash=$1 [L,QSA]
+
+ErrorDocument 404 /404.php
